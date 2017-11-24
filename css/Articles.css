@@ -1,0 +1,121 @@
+.main{
+    width:100%;
+    min-height: 1000px;
+
+}
+#section{
+    width:1140px;
+    min-height: 800px;
+    /*background: #006600;*/
+    margin: 0px auto;
+}
+
+/*最新图文、导航*/
+#section>div.best_new_page>div.best{
+    padding-top:30px;
+}
+#section>div.best_new_page>div.best>ul.clear li{
+    float:left;
+    width:auto;
+    height:22px;
+    border-radius: 9px;
+    padding:0px 7px;
+}
+#section>div.best_new_page>div.best ul{
+    /*float:left;*/
+    padding-left: 15px;
+    padding-top:6px;
+}
+#section>div.best_new_page>div.best h2{
+    float:left;
+}
+#section>div.best_new_page>div.best>h2>a{
+    font-size: 20px;
+    line-height: 22px;
+    font-weight: 500;
+    color:#212121;
+}
+#section>div.best_new_page>div.best>a{
+    display:inline-block;
+    float:right;
+    font-size: 14px;
+    line-height: 35px;
+}
+
+#section>div.best_new_page>div.best a{
+    color:#757575;
+}
+#section>div.best_new_page>div.best>ul li:hover{
+    background: #f1f1f1;
+    color:#212121;
+    cursor: pointer;
+}
+#section>div.best_new_page>div.best>a:hover{
+    color:#212121;
+}
+
+/*最新图文之pic_detial*/
+#section>div.best_new_page>div.pic_detail{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+/*#section>div.best_new_page>div.pic_detail>div.pic_d{*/
+    /*width:340px;*/
+/*}*/
+/*#section>div.best_new_page>div.pic_detail>div.pic_d{*/
+    /*padding-top:30px;*/
+/*}*/
+#section>div.best_new_page>div.pic_detail>div.pic_d>.detail{
+    padding-top:20px;
+}
+#section>div.best_new_page>div.pic_detail>div.pic_d>.detail p{
+    padding-top:10px;
+    font-size: 14px;
+    color:#757575;
+    line-height: 1.6;
+
+
+}
+#section>div.best_new_page>div.pic_detail>div.pic_d>.pic img{
+    /*width:340px;*/
+    transition: all .3s linear;
+    background-color: #f6f6f6;
+    max-width:100%;
+    max-height:100%;
+
+}
+#section>div.best_new_page>div.pic_detail>div.pic_d>.pic img:hover{
+    opacity: 0.7;
+    /*transform: scale(1.1);*/
+}
+#section>div.best_new_page>div.pic_detail>div.pic_d>.detail a{
+    color:#212121;
+    overflow: hidden;
+    font-weight: 400;
+    line-height: 1.3;
+    font-size: 24px;
+    font-family: inherit;
+}
+
+#section>div.best_new_page>div.pic_detail div.time{
+    float:right;
+    font-size:12px;
+    color:#757575;
+}
+
+#section>div.best_new_page>div.pic_detail>div.pic_d{
+    width:32%;
+    height: auto;
+    padding:15px;
+    transition: all .2s ease-in-out;
+    margin-left:10px;
+    margin-top:52px;
+    /*padding-top:30px;*/
+}
+#section>div.best_new_page>div.pic_detail>div.pic_d:hover{
+    background:#f8f8f8;
+    border-radius:4px;
+    cursor: pointer;
+}

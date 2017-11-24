@@ -1,0 +1,162 @@
+
+.main{
+    background: #F8F8F8;
+}
+#section{
+    width:1140px;
+    height:548px;
+    margin-top:23px;
+    margin:25px auto 0px;
+    padding-top:40px;
+}
+#section>.register{
+    width:600px;
+    min-height:440px;
+    margin:0px auto;
+}
+#section>.register>div.row1{
+    margin-bottom:15px;
+}
+
+#section>.register>div.row1>div.r_left{
+    float:left;
+}
+#section>.register>div.row1>div.r_right> a{
+   color:#5976c1;
+}
+#section>.register>div.row1>div.r_right{
+    float:right;
+}
+
+#section>.register>form>div.row2{
+    margin-bottom:15px;
+}
+#section>.register>form>div.row2>div input{
+    border-style:none;
+    width:100%;
+    font-size:14px;
+    color:#555;
+    background: #fff;
+    height:34px;
+    padding:6px 15px 5px 10px;
+    border-radius:4px;
+}
+#section>.register>form>div.row2>div input:focus{
+    box-shadow:inherit;
+    border:1px solid #ccc;
+    outline: 0;
+}
+
+#section>.register>form>div.row3{
+    margin-bottom:15px;
+}
+#section>.register>form>div.row3>div input{
+    border-style:none;
+    width:100%;
+    font-size:14px;
+    color:#555;
+    background: #fff;
+    height:34px;
+    padding:6px 15px 5px 10px;
+    border-radius:4px;
+}
+#section>.register>form>div.row3>div input:focus{
+    box-shadow:inherit;
+    border:1px solid #ccc;
+    outline: 0;
+}
+
+#section>.register>form>div.row4{
+    margin-bottom:15px;
+}
+#section>.register>form>div.row4>div input{
+    border-style:none;
+    width:100%;
+    font-size:14px;
+    color:#555;
+    background: #fff;
+    height:34px;
+    padding:6px 15px 5px 10px;
+    border-radius:4px;
+}
+#section>.register>form>div.row4>div input:focus{
+    box-shadow:inherit;
+    border:1px solid #ccc;
+    outline: 0;
+}
+
+#section>.register>form>div.row5{
+    margin-bottom:15px;
+}
+#section>.register>form>div.row5>div input{
+    border-style:none;
+    width:100%;
+    font-size:14px;
+    color:#555;
+    background: #fff;
+    height:34px;
+    padding:6px 15px 5px 10px;
+    border-radius:4px;
+}
+#section>.register>form>div.row5>div input:focus{
+    box-shadow:inherit;
+    border:1px solid #ccc;
+    outline: 0;
+}
+
+#section>.register>form>div.row6{
+    margin-bottom:15px;
+}
+#section>.register>form>div.row6>div input{
+    border-style:none;
+    width:40%;
+    font-size:14px;
+    color:#555;
+    background: #fff;
+    height:34px;
+    padding:6px 15px 5px 10px;
+    border-radius:4px;
+    display:inline-block;
+    float:left;
+}
+#section>.register>form>div.row6>div img{
+    display:inline-block;
+    float:right;
+}
+#section>.register>form>div.row6>div input:focus{
+    box-shadow:inherit;
+    border:1px solid #ccc;
+    outline: 0;
+}
+#section>.register>form>div.row7>div input{
+    display:inline-block;
+    float:left;
+    margin:6px 10px 0px 0px;
+}
+#section>.register>form>div.row7>div a{
+    display:inline-block;
+    float:right;
+    color:#5976c1;
+}
+#section>.register>form>div.row7>div a:hover{
+   color:#4057A7;
+}
+#section>.register>form>div.row8>div{
+    margin-top:37px;
+}
+#section>.register>form>div.row8>div input{
+    border-style:none;
+    width:100%;
+    font-size:14px;
+    color:#fff;
+    background: #6192FF;
+    height:44px;
+    padding:6px 15px 5px 10px;
+    border-radius:4px;
+}
+#section>.register>form>div.row8>div input:hover{
+    border-color:#204d74;
+    color:#fff;
+    background: #3F6FF0;
+}
+

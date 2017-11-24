@@ -1,0 +1,86 @@
+
+#header>.head_includ img{
+	float:left;
+	width:41px;
+	margin-right:20px;
+	margin-top:12px;
+}
+
+#header{
+	width:1140px;
+	height: auto;
+	/*background: #006600;*/
+	margin: 0px auto;
+}
+
+/*(2)head_include*/
+#header>.head_includ{
+	position: relative;
+}
+
+#header>.head_includ>ul.nav{
+	float:left;
+	position:absolute;
+	top:5px;
+	left:95px;
+}
+#header>.head_includ>ul.nav li{
+	float:left;
+
+}
+#header>.head_includ>ul.nav>li.active{
+	border-bottom: 1px solid #212121;
+}
+#header>.head_includ>ul a:hover{
+	color:#212121;
+	font-weight: 500;
+}
+
+#header>.head_includ>ul.login{
+	float:right;
+	position:absolute;
+	top:3px;
+	left:946px;
+}
+#header>.head_includ>ul.login li{
+	float:left;
+}
+/*#header>.includ>.head_includ>ul.login>li a["hf='re'"]{*/
+	/*font-weight:900;*/
+	/*font-size: 14px;*/
+/*}*/
+#header>.head_includ>ul li{
+
+	padding: 7px 9px;
+	margin-right:19px;
+}
+
+.includ{
+	border-bottom: 1px solid #ddd;
+	/*margin-bottom: 20px;*/
+}
+
+/*//search*/
+
+#header>.head_includ>div.h_search{
+	float:left;
+	margin:12px 0px 0px 496px;
+}
+
+#header>.head_includ>.h_search>input{
+	width:200px;
+	height: 32px;
+	background: #f4f4f4;
+	border-radius: 50px 50px;
+	padding-left: 20px;
+	outline-style:none;
+	line-height: 32px;
+	border:none;
+	color:#757575;
+	/*text-shadow: none;*/
+	padding-right:20px;
+	transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+	position:relative;
+	left:152px;
+	top:-6px;
+}

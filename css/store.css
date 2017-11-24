@@ -1,0 +1,158 @@
+#section{
+    width:1140px;
+    height:auto;
+    margin: auto;
+}
+#section>div.store_banner{
+    height:500px;
+    position: relative;
+}
+#section>div.store_banner img{
+    display: inline-block;
+    width:750px;
+    height:500px;
+}
+#section>div.store_banner div{
+    width:100px;
+    height:500px;
+    overflow: hidden;
+    transition: all .3s linear;
+}
+#section>div.store_banner div:nth-child(1):hover{
+    width:750px;
+    z-index:10;
+}
+#section>div.store_banner div:nth-child(2):hover{
+    width:750px;
+    z-index:10;
+}
+#section>div.store_banner div:nth-child(3):hover{
+    width:750px;
+    z-index:10;
+}
+#section>div.store_banner div:nth-child(4):hover{
+    width:750px;
+    z-index:10;
+}
+#section>div.store_banner div:nth-child(5):hover{
+    width:740px;
+    z-index:10;
+}
+#section>div.store_banner div:nth-child(1){
+    position: absolute;
+    left:0px;
+    top:0px;
+}
+#section>div.store_banner div:nth-child(2){
+    position: absolute;
+    left:100px;
+    top:0px;
+}
+#section>div.store_banner div:nth-child(3){
+    position: absolute;
+    left:200px;
+    top:0px;
+    /*z-index: 5;*/
+}
+#section>div.store_banner div:nth-child(4){
+    position: absolute;
+    left:300px;
+    top:0px;
+}
+#section>div.store_banner div:nth-child(5){
+    width:740px;
+    position: absolute;
+    left:400px;
+    top:0px;
+}
+
+/*img_two*/
+#section>div.img_two{
+    margin-top: 30px;
+}
+#section>div.img_two img{
+    display: inline-block;
+    width:567px;
+}
+
+/*new_product*/
+#section>div.new_product{
+    padding:0px 20px 0px 20px;
+
+    position: relative;
+    /*height:204px;*/
+}
+#section>div.new_product>p{
+    margin:50px 0px 20px 0px;
+}
+#section>div.new_product ul{
+    width:10000px;
+}
+#section>div.new_product ul li{
+    /*display: inline-block;*/
+    float:left;
+    margin-right:50px;
+}
+#section>div.new_product>div:nth-child(2){
+    overflow: hidden;
+}
+#section>div.new_product>div:nth-child(3){
+    position:absolute;
+    left:1136px;
+    top:173px;
+    font-weight: bold;
+    font-size: 18px;
+    opacity: 0.7;
+}
+#section>div.new_product>div:nth-child(4){
+    position:absolute;
+    left:0px;
+    top:173px;
+    font-weight: bold;
+   font-size: 18px;
+    opacity: 0.7;
+}
+#section>div.new_product>div:nth-child(2)>ul p{
+    text-align: center;
+    margin-top: 20px;
+}
+
+/*all_store*/
+#section>div.all_store>p{
+    margin:50px 0px 20px 0px;
+}
+#section>div.all_store>div.store_nav{
+    background: rgba(221, 221, 221, 0.3);
+    height: 63px;
+    line-height: 63px;
+}
+#section>div.all_store>div.store_nav ul li{
+    display: block;
+    float:left;
+    margin-left: 20px;
+}
+#section>div.all_store>div.store_nav ul li a{
+    padding:0px 8px;
+    border-radius: 19px;
+    background: #fff;
+}
+#section>div.all_store>div.store_nav ul li a:hover{
+    background: rgba(221, 221, 221, 0.3);
+}
+#section>div.all_store>div.srore_item{
+    margin-top:50px;
+}
+#section>div.all_store>div.srore_item ul li{
+    width:25%;
+    float:left;
+    margin-bottom:20px;
+}
+#section>div.all_store>div.srore_item ul{
+    margin-left: 20px;
+}
+#section>div.all_store>div.srore_item ul li a:hover{
+    text-decoration: underline;
+}
+
+
+

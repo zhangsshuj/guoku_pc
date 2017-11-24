@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>果库注册</title>
+    <link rel="stylesheet" href="css/base.css"/>
+    <link rel="stylesheet" href="css/register.css"/>
+    <style>
+            .error{
+                 color:red;
+                 }
+            .right{
+                    color:green;
+                }
+    </style>
+
+
+</head>
+<body>
+    <div class="h_general">
+
+    </div>
+    <div class="main">
+            <div id="section">
+                <div class="register">
+                    <div class="row1 clear">
+                        <div class="r_left">
+                            <a href="#">
+                                Sign Up | Have an Account?
+                            </a>
+                        </div>
+                        <div class="r_right">
+                            <a href="login.html">Sign In Now >></a>
+                        </div>
+                    </div>
+                    <form id="form1" action="#">
+                        <div class="row2">
+                            <div>
+                                <input type="text" placeholder="nickname" name="uname"/><span></span>
+                            </div>
+                        </div>
+                        <div class="row3">
+                            <div>
+                                <input type="email" placeholder="hi@guoku.com" name="email"/><span></span>
+                            </div>
+                        </div>
+                        <div class="row4">
+                            <div>
+                                <input type="password" placeholder="password" name="upwd"/><span></span>
+                            </div>
+                        </div>
+                        <div class="row5">
+                            <div>
+                                <input type="password" placeholder="New password confimation" id="upwd2"/><span></span>
+                            </div>
+                        </div>
+                        <div class="row6">
+                            <div class="clear">
+                                <input type="password" placeholder="Captcha Code"/>
+                                <img src="img/www.guoku.com/captcha/image/625a6a2e018959c7812775d035bbb2117d62d39c/index.htm.png" alt=""/>
+                            </div>
+                        </div>
+                        <div class="row7">
+                            <div class="clear">
+                                <input type="checkbox" placeholder="nickname" id="agree"/><label for="agree">我已阅读并同意</label>
+                                <a href="#">果库使用协议</a>
+                            </div>
+                        </div>
+                        <div class="row8">
+                            <div>
+                                <input type="submit" value="next" id="btn"/>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+    </div>
+    <div class="foot">
+
+    </div>
+    <script src="js/myQuery.js"></script>
+    <script src="js/ajax.js"></script>
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/load_Hgeneral.js"></script>
+    <script src="js/load_foot.js"></script>
+    <script src="js/register.js"></script>
+</body>
+</html>

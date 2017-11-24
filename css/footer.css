@@ -1,0 +1,80 @@
+/*footer脚部*/
+
+
+#footer{
+	width:100%;
+	min-height: 50px;
+	background: #232323;
+	/*margin-top:40px;*/
+	font-size:16px;
+	color:#9D9E9F;
+	line-height: 1.5;
+}
+#footer>.foot{
+	width:1140px;
+	min-height: 40px;
+
+	margin: 0px auto;
+}
+#footer>div.foot>div.f_top>ul li{
+	float:left;
+	margin-left:10px;
+}
+#footer>div.foot>div.f_top>ul{
+	width: 228px;
+	margin:30px auto 18px;
+}
+
+#footer>div.foot>div.f_top>ul>li a{
+	display: block;
+	width:28px;
+	height:28px;
+	border-radius: 14px;
+	background: #9D9E9F;
+	font-size:18px;
+	color:#000;
+	line-height: 1.4;
+	opacity:0.7;
+}
+#footer>div.foot>div.f_top>ul>li a:hover{
+	opacity:1;
+}
+#footer>div.foot>div.f_middle>ul{
+	width:630px;
+	margin:0px auto 8px;
+}
+
+#footer>div.foot>div.f_middle>ul>li{
+	float:left;
+	margin-left:20px;
+}
+#footer>div.foot>div.f_middle>ul>li a{
+	opacity:0.6;
+	font-size: 13px;
+}
+#footer>div.foot>div.f_middle>ul>li a:hover{
+	opacity:1;
+	color:#9D9E9F;
+}
+
+#footer>div.foot>div.f_bottom>ul{
+	width:391px;
+	margin:0px auto;
+	padding-bottom:28px;
+}
+#footer>div.foot>div.f_bottom>ul li{
+	float:left;
+	margin-left:10px;
+	color:#9D9E9F;
+	display: inline-block;
+	font-size: 13px;
+
+}
+#footer>div.foot>div.f_bottom>ul>li a{
+	opacity:0.6;
+	font-size: 13px;
+}
+#footer>div.foot>div.f_bottom>ul>li a:hover{
+	opacity:1;
+	color:#9D9E9F;
+}
